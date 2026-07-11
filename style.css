@@ -33,6 +33,7 @@ nav{
 .nav-ul{
     display: flex;
     justify-content: space-between;
+    font-family: "Open Sans", sans-serif;
     
 }
 .nav-ul li a{
@@ -224,8 +225,7 @@ nav ul li a{
 /* AI section style */
 .ai-sponsors-section {
     padding: 60px 20px;
-    background-color: #ffffff;
-    font-family: system-ui, -apple-system, sans-serif;
+    background-color: #ffffff;    
 }
 
 .sponsors-container {
@@ -301,3 +301,31 @@ nav ul li a{
     margin-top: 10px;
 }
 
+/* footer style */
+footer{
+    background-color: #0D1B2A;
+}
+.footer-logo-item-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 70px;
+    
+    align-items: center;
+}
+.footer-logo-item-div i{
+    gap: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+    margin: 6px;
+}
+.copyright{
+    font-size: 12px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+footer hr{
+    opacity: 0.2;
+}
