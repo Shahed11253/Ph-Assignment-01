@@ -104,6 +104,7 @@ nav ul li a{
     border: 2px solid rgb(223, 221, 221);   
     text-align: left;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 .meet-box img{
     border-radius: 8px 8px 0px 0px;
@@ -144,7 +145,7 @@ nav ul li a{
 
 .secure-heading{
     font-size: 46px;
-    margin-top: 100px;
+    margin-top: 90px;
     margin-bottom: 10px;
 }
 .secure-heading-p{

@@ -1,0 +1,1 @@
+Act as an expert Frontend Developer. This is my requirement where given I have to add a section relevent with devconf website using AI. give me a FAQ section  using html css .It will something like that a question and a button on the side of this question, then if click this button answer will show .  don't use js or any famework or libraries.
