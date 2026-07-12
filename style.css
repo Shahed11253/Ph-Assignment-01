@@ -5,6 +5,10 @@
     font-family: "Open Sans", sans-serif;
 }
 /* Common Style */
+html {
+  scrollbar-color: #1D4ED8 #0B0E14; 
+  scrollbar-width: auto;   
+}
 .btn{
     background-color: #1D4ED8;
     color: white;
@@ -251,7 +255,7 @@ nav ul li a{
 .sponsors-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
+    gap: 24px;    
 }
 
 .sponsor-card {
@@ -301,6 +305,117 @@ nav ul li a{
     margin-top: 10px;
 }
 
+
+/* AI Challenge - FAQ Grid Section */
+.ai-faq-section {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+.faq-container {
+    max-width: 1200px; 
+    margin: 0 auto;
+    text-align: center;
+}
+
+.faq-heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.faq-subheading {
+    font-size: 1.1rem;
+    color: #64748b;
+    margin-bottom: 40px;
+}
+
+/* Ai section style */
+.ai-accordion-faq {
+    background-color: #0d1b2a; 
+    padding: 80px 20px;
+    
+}
+
+.faq-line-container {
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+.faq-line-heading {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.faq-line-heading span {
+    color: #2563eb; 
+}
+
+.faq-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.faq-line-item {
+    border-bottom: 1px solid #1f2937; 
+    padding: 24px 0;
+}
+
+
+.faq-line-item summary::-webkit-details-marker {
+    display: none;
+}
+.faq-line-item summary {
+    list-style: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.faq-question-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-question-box h3 {
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: #e5e7eb;
+    margin: 0;
+}
+
+.faq-arrow {    
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 300;
+    transition: transform 0.2s ease; 
+}
+
+
+.faq-answer {
+    padding-top: 16px;
+    padding-right: 40px;
+    color: #9ca3af;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+
+.faq-line-item[open] .faq-arrow {
+    transform: rotate(90deg);
+    color: #2563eb;
+}
+
+
+.faq-line-item summary:hover .faq-question-box h3 {
+    color: #ffffff;
+}
+
 /* footer style */
 footer{
     background-color: #0D1B2A;
@@ -308,7 +423,7 @@ footer{
 .footer-logo-item-div{
     display: flex;
     justify-content: space-between;
-    padding: 25px 70px;
+    padding: 35px 70px;
     
     align-items: center;
 }
@@ -316,8 +431,9 @@ footer{
     gap: 10px;
     color: white;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 30px;
     margin: 6px;
+    
 }
 .copyright{
     font-size: 12px;
