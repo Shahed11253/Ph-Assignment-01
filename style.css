@@ -101,8 +101,7 @@ nav ul li a{
 }
 
 .meet-box{
-    border: 2px solid rgb(223, 221, 221);
-    margin-bottom: 20px;
+    border: 2px solid rgb(223, 221, 221);   
     text-align: left;
     border-radius: 10px;
 }
@@ -131,19 +130,21 @@ nav ul li a{
 /* Secure your spot style */
 .secure-parent{
     text-align: center;
-    margin: 100px 0;
-    
+    margin: 80px 0;
+    padding: 0 150px;
 }
 
-.secure-parent-div{
-    display: flex;
+.secure-parent-div{    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     justify-content: center;
+    
 }
 
 .secure-heading{
     font-size: 46px;
-    margin-top: 150px;
+    margin-top: 100px;
     margin-bottom: 10px;
 }
 .secure-heading-p{
@@ -190,7 +191,7 @@ nav ul li a{
 .pro{
     background-color: #0D1B2A;
     color: white;
-    border: 8px solid #0D1B2A;    
+    border: 12px solid #0D1B2A;    
 }
 .standard-btn{
     border: 1.5px solid #1D4ED8;
@@ -212,8 +213,7 @@ nav ul li a{
     font-weight: bold;
     border-radius: 10px;
     cursor: pointer;
-    border: none;
-
+    border: none; 
 }
 
 .secure-contact-btn{
